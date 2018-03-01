@@ -22,7 +22,7 @@ requirements:
 
   run:
     - python
-    - django >=1.8,<1.11
+    - django >=1.8
     - nose >=1.2.1
 
 test:
