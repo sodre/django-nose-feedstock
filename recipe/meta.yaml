@@ -1,6 +1,6 @@
 {% set name = "django-nose" %}
-{% set version = "1.4.4" %}
-{% set sha256 = "c0b904927fcc2f9d8c55ad1afa18c2e77d74f44ef162c35e07930af5a73ba4ba" %}
+{% set version = "1.4.5" %}
+{% set sha256 = "87663f18cb25f01d56c84ac1ff8a0e6e6a6246264b2549b751cb239d0642e76a" %}
 
 package:
   name: {{ name|lower }}
@@ -22,7 +22,7 @@ requirements:
 
   run:
     - python
-    - django >=1.8,<1.11
+    - django >=1.8
     - nose >=1.2.1
 
 test:
